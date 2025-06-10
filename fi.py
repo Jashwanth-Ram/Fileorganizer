@@ -1,7 +1,7 @@
 import shutil
 import os
 
-# file_organizer func() : 
+
 def file_organizer():
     path = input("Enter path: ")
     file_list = os.listdir(path)
