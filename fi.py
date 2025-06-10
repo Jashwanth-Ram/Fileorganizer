@@ -1,6 +1,7 @@
 import shutil
 import os
 
+# file_organizer func() : 
 def file_organizer():
     path = input("Enter path: ")
     file_list = os.listdir(path)
@@ -15,7 +16,8 @@ def file_organizer():
             os.makedirs(path+"/"+extension)
             shutil.move(path+"/"+file, path+"/"+extension+"/"+file)
 
-            
+
+
 file_organizer();
 
 
